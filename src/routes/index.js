@@ -1,5 +1,5 @@
 import Calculator from '@/view/Home.vue';
-// import About from '@/components/About.vue';
+import About from '@/view/About.vue';
 
 export default [
   {
@@ -7,9 +7,9 @@ export default [
     name: 'Calculator',
     component: Calculator
   },
-  // {
-  //   path: '/about',
-  //   name: 'About',
-  //   component: About
-  // }
+  {
+    path: '/about',
+    name: 'About',
+    component: About
+  }
 ];
